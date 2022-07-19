@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: myriad_light;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F0F0F0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.link {
+  text-decoration: none;
+  color: unset;
+}
+
+@font-face {
+  font-family: "myriad_light";
+  src: url(./fonts/MyriadPro-Light.otf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "myriad_regular";
+  src: url(./fonts/MYRIADPRO-REGULAR.OTF) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "myriad_bold";
+  src: url(./fonts/MYRIADPRO-SEMIBOLD.OTF) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* @font-face {
+  font-family: "sengbuhan";
+  src: url(./fonts/sengbuhan.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+} */

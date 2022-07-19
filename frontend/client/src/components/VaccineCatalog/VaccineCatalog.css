@@ -1,0 +1,58 @@
+.vaccine-catalog-container {
+  width: 100%;
+  max-width: 1024px;
+  padding: 1rem;
+  background-color: white;
+  margin: 1rem 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.vaccatal-header {
+  color: #041656;
+}
+.vaccatal-header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #041656;
+}
+
+.vaccatal-img-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.vaccatal-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid lightgray;
+}
+
+.vaccatal-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 1rem;
+  margin-top: 1rem;
+}
+
+.vaccatal-card {
+  width: 13rem;
+}
+
+.vaccatal-title-text {
+  max-height: 2rem;
+  overflow-y: hidden;
+
+  text-align: center;
+  color: #041656;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.view-all-link {
+  font-size: 14px;
+  color: rgb(5, 115, 212);
+}
