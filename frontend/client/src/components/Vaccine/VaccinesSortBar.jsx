@@ -1,8 +1,6 @@
 import { Wrapper } from "../../global/GlobalStyle.styled";
-import styled from "styled-components";
 
 import "./VaccinesSortBar.css";
-import { useState } from "react";
 const VaccinesSortBar = ({ sortOption, setSortOption, setKeyword }) => {
   return (
     <>
