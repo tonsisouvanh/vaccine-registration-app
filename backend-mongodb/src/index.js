@@ -15,17 +15,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use("/api/users", require("./routes/userRoutes"));
-
 app.use("/api/vaccines", require("./routes/vaccineRoutes"));
-
 app.use("/api/admin", require("./routes/adminRoutes"));
-
 app.use("/api/centers", require("./routes/centerRoutes"));
-
 app.use("/api/vaccine-registration", require("./routes/registrationRoutes"));
-
 app.use("/api/carts", require("./routes/cartRoutes"));
-
 app.use("/api/orders", require("./routes/orderRoutes"));
 
 app.use(errorHandler);
